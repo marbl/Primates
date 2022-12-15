@@ -31,7 +31,7 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 - Pangenomics
 
 ## Contact
-For any problems related to this dataset, please raise issues on this GitHub repository. For general questions regarding the project, please contact <adam.phillippy@nih.gov>. More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/).
+For any problems related to this dataset, please raise [issues]<https://github.com/marbl/Primates/issues> on this GitHub repository. For general questions regarding the project, please contact <adam.phillippy@nih.gov>. More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/).
 
 ## History
 
