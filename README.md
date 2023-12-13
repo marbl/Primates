@@ -31,7 +31,7 @@ There are a number of files within these directories with the following tags:
 `pri/alt` :  hap1 + ChrY (primary), hap2 - ChrY (alternate)  
 `unloc` : any unlocalized sequences from unresolved gaps
 
-Files with the date tag `20231122` are the v2 assemblies that were submitted to GenBank. Both diploid and primary assemblies were submitted, but only the primary assemblies containing both chrX and chrY will be annotated and serve as a linear reference for each species. All primary haplotype chromosomes are assembled "T2T" (complete, gapless, telomere on both ends) with the exception of the large rDNA arrays; one additional gap in mPanPan1 chr22_pat_hsa21, mPonAbe1 chr18_hap1_hsa16, and mPonAbe1 chr1_hap1_hsa1; and one missing telomere from mPonPyg2 chr21_hap1_hsa20.
+Files with the date tag `20231122` and `20231205` are the v2 assemblies that were submitted to GenBank. Both diploid and primary assemblies were submitted, but only the primary assemblies containing both chrX and chrY will be annotated and serve as a linear reference for each species. All primary haplotype chromosomes are assembled "T2T" (complete, gapless, telomere on both ends) with the exception of the large rDNA arrays; one additional gap in mPanPan1 chr22_pat_hsa21, mPonAbe1 chr18_hap1_hsa16, and mPonAbe1 chr1_hap1_hsa1; and one missing telomere from mPonPyg2 chr21_hap1_hsa20.
 
 ## v1.0 (December 2022)
 Version 1 diploid assemblies were generated with [Verkko](https://github.com/marbl/verkko), and contigs were chromosome-assigned and oriented by alignment to the previous references. Both X and Y chromosomes are complete for all species listed. Gorilla and bonobo were phased using familial trios, and all others using Hi-C. To avoid confusion, we have removed links to these assemblies, but they still exist in the AWS bucket.
@@ -49,3 +49,4 @@ For any problems related to this dataset, please raise [issues](https://github.c
 
     * Dec 2022. v1 release.
     * Nov 2023. v2 release.
+    * Dec 2023. hap1 hap2 swapped in mPonAbe1 chr14 (hsa13) and mSymSyn1 chr3 to keep the rDNA containing or higher quality haplotype in hap1 and in the primary assembly.
