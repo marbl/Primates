@@ -7,7 +7,7 @@ Since the XY chromosomes were gapless, and were assembled from the same individu
 Note mSynSyn1 v2.1 XY chromosomes are identical to v2.0 (the only change from v2.0 to v2.1 was in chr12 and chr19).
 
 ```shell
-for sp in mGorGor1 mPanPan1 mPanTro3 mPonAbe1 mPonPyg2 mSynSyn1
+for sp in mGorGor1 mPanPan1 mPanTro3 mPonAbe1 mPonPyg2 mSymSyn1
 do
   for chr in X Y
   do
@@ -21,7 +21,7 @@ do
 	wfmash -d -N --one-to-one -s 50000 --map-pct-id=95 \
 	  -t12 ${sp}_v2.0.$chr.fa.gz ${sp}_v1.1.$chr.fa > ${sp}_${chr}_v1.1_to_v2.0.paf
 
-	# We need to swap the chain, as liftOver lifts target to query
+	# We need to swap the chain, as liftOver lifts from target to query
 	paf2chain -i ${sp}_${chr}_v1.1_to_v2.0.paf > ${sp}_${chr}_v2.0_to_v1.1.chain
 	chainSwap ${sp}_${chr}_v2.0_to_v1.1.chain ${sp}_${chr}_v1.1_to_v2.0.chain
 	set +x
