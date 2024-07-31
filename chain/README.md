@@ -36,7 +36,7 @@ All alignments were ensured to have no breaks.
 ## An example use case
 A simple way to lift over an input bed file from v1.1 is to use UCSC [liftOver](https://genome.ucsc.edu/goldenPath/help/hgTracksHelp.html#Liftover). Below is an example using the first and last 5 bps as anchors to lift over a region.
 ```shell
-liftOver -ends 5 v1.1.bed ${sp}_XY_v1.1_to_v2.0.chain v1.1.lifted.bed v1.1.unlifted.bed
+liftOver -ends=5 v1.1.bed ${sp}_XY_v1.1_to_v2.0.chain v1.1.lifted.bed v1.1.unlifted.bed
 ```
 
 ## PAF files (simple version with no MD tag)
