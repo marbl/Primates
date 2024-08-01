@@ -1,13 +1,12 @@
 # Telomere-to-Telomere consortium primates project
 T2T-Primates is a project of the [Telomere-to-Telomere consortium](https://sites.google.com/ucsc.edu/t2tworkinggroup/) and is led by the [Makova](https://www.bx.psu.edu/makova_lab/), [Phillippy](https://genomeinformatics.github.io/), and [Eichler](https://eichlerlab.gs.washington.edu/) labs. The project seeks to finish complete, diploid assemblies for key non-human primate species. The project is currently focused on gorilla, bonobo, chimpanzee, orangutan, and gibbon. Following the approach of the human [T2T-CHM13](https://github.com/marbl/CHM13) project, all species have been sequenced with high-coverage PacBio HiFi (>50x) and Oxford Nanopore ultra-long 100 kb+ (>30x) sequencing reads. For haplotype phasing, Dovetail Hi-C data was generated for all genomes and Strand-seq data is also expected. Parental Illumina data was collected for bonobo and gorilla, where familial trios were available.
 
-Phase one of the project focused on completing the sex chromosomes (v1 release), and phase two focused on finishing the autosomes (v2 release). Version 2 assemblies for all species are now available with a preprint with comparative analysis.
+Phase one of the project focused on completing the sex chromosomes (v1 release), and phase two focused on finishing the autosomes (v2 release). Version 2 assemblies for all species are now available, both here and via GenBank/RefSeq. See below for publications detailing our initial analyses of these assemblies.
 
 ## Data reuse and license
 All data is released to the public domain ([CC0](https://creativecommons.org/publicdomain/zero/1.0/)) and we encourage its reuse. However, we are in the process of finishing and analyzing these genomes, so to avoid duplicating effort, we encourage you to contact us if you are interested in contributing. The following working groups have been formed: assembly, annotation, sex chromosomes, comparative and evolutionary genomics, segmental duplications, acrocentric chromosomes and rDNAs, satellite DNAs, mobile elements, and pangenomics.
 
 ### Relevant citations:
-
 1. Yoo D, et al. [Complete sequencing of ape genomes](https://www.biorxiv.org/content/10.1101/2024.07.31.605654v1). BioRxiv, 2024
 2. Makova K, et al. [The Complete Sequence and Comparative Analysis of Ape Sex Chromosomes](https://doi.org/10.1038/s41586-024-07473-2). Nature, 2024.
 
