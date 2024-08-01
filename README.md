@@ -75,14 +75,16 @@ Custom scripts used for the v2 assemblies are listed as below:
 * [Transcript comparison](https://github.com/canzarlab/apes_transcriptome_analysis)
 
 In addition to the custom scripts, the following codes were used:
-* Alignment: [Winnowmap](https://github.com/arangrhie/T2T-Polish/tree/master/winnowmap), lastz, minimap2, blastn, blastp, [wfmash](https://github.com/waveygang/wfmash), [MashMap](https://github.com/marbl/MashMap), [nucmer](https://github.com/mummer4/mummer)
+* Alignment: [Winnowmap](https://github.com/arangrhie/T2T-Polish/tree/master/winnowmap), [lastz](https://github.com/lastz/lastz), [minimap2](https://github.com/lh3/minimap2), blastn, blastp, [wfmash](https://github.com/waveygang/wfmash), [MashMap](https://github.com/marbl/MashMap), [nucmer](https://github.com/mummer4/mummer)
 * Alignment processing: [paf2chain](https://github.com/AndreaGuarracino/paf2chain), [wgatools](http://github.com/wjwei-handsome/wgatools), [rustybam](https://github.com/mrvollger/rustybam), [perbase](https://github.com/sstadick/perbase)
-* Conservation score calculation: PhastCons, [pan-genome graph](https://github.com/pangenome/impg)
+* Conservation score calculation: PhastCons
+* Pan-genome graph: [impg](https://github.com/pangenome/impg)
 * Further assembly QC: [Flagger](https://github.com/mobinasri/flagger), [NucFreq](https://github.com/mrvollger/NucFreq)
 * Non-B DNA annotation: [non-B_gfa](https://github.com/abcsFrederick/non-B_gfa)
 * Gene annotation: [CAT](https://github.com/ComparativeGenomicsToolkit/Comparative-Annotation-Toolkit), [TOGA](https://github.com/hillerlab/TOGA), IgDetective, Digger, Exonerate
 * Repeat annotation: [Repeatmasker, TRF, ULTRA, windowmasker](http://doua.prabi.fr/software/one-code-to-find-them-all)
-* Transcriptome data alignment: StringTie2, ILS, [TRAILS](https://github.com/rivasiker/trails), [mcmc2](https://github.com/stschiff/msmc2)
+* Transcriptome data alignment: [StringTie2](https://github.com/gpertea/stringtie)
+* Incomplete lineage sorting: [TRAILS](https://github.com/rivasiker/trails), [mcmc2](https://github.com/stschiff/msmc2)
 * Selection signature scans: Sweepfinder2, saltiLASSI
 * Replication timing: [Phylo-HMGP](https://github.com/ma-compbio/Phylo-HMGP)
 * Structural variation calling: [syri](https://github.com/schneebergerlab/syri), [PAV](https://github.com/EichlerLab/pav)
