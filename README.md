@@ -53,6 +53,37 @@ All generated sequencing data and assemblies are available for browsing and down
 ### Notes on downloading files
 Files are generously hosted by Amazon Web Services under `s3://genomeark`. Although available as HTTP links above, download performance is improved by using the Amazon Web Services [command-line interface](https://aws.amazon.com/cli/). References should be amended to use the `s3://` addressing scheme. Amending the `max_concurrent_requests` etc. settings as per [this guide](https://docs.aws.amazon.com/cli/latest/topic/s3-config.html) will improve download performance further.
 
+## Code Availability
+Custom scripts used for the v2 assemblies are listed as below:
+* [Polishing](https://github.com/arangrhie/T2T-Polish)
+* [Assembly QC](https://github.com/EichlerLab/assembly_eval)
+* [Implicit graph & pangenome](https://github.com/T2T-apes/ape_pangenome)
+* [Cactus alignment](https://cglgenomics.ucsc.edu/february-2024-t2t-apes)
+* [Assessment of ancestral sequence](https://github.com/vertgenlab/vglDocumentation/tree/master/primateT2T)
+* [AQER analysis](https://github.com/shanksc/ancestral_state)
+* [Population genome processing and selection analysis](https://github.com/aabiddanda/haplotype-phasing)
+* Acrocentric/rDNA analyses - [Image processing, rDNA analysis](https://github.com/jouyun/2024_Primate_rDNA) and [rDNA copy number analysis](https://github.com/borcherm/primate_rdna_cn)
+* [Species-specific MEI analysis](https://github.com/Markloftus/t2t-ape-MEIs)
+* [Non-B DNA annotation and NUMT detection](https://github.com/makovalab-psu/T2T_primate_autosomes)
+* [Transcript comparison](https://github.com/canzarlab/apes_transcriptome_analysis)
+
+In addition to the custom scripts, the following codes were used:
+* Alignment: [Winnowmap](https://github.com/arangrhie/T2T-Polish/tree/master/winnowmap), lastz, minimap2, blastn, blastp, [wfmash](https://github.com/waveygang/wfmash), [MashMap](https://github.com/marbl/MashMap), [NucMer](https://github.com/marbl/NUCMER)
+* Alignment processing: [paf2chain](https://github.com/AndreaGuarracino/paf2chain), [wgatools](http://github.com/wjwei-handsome/wgatools), [rustybam](https://github.com/mrvollger/rustybam), [perbase](https://github.com/sstadick/perbase)
+* Conservation score calculation (PhastCons), [pan-genome graph](https://github.com/pangenome/impg)
+* Further assembly QC: [Flagger](https://github.com/mobinasri/flagger)
+* [non-B DNA annotation](https://github.com/abcsFrederick/non-B_gfa)
+* Gene annotation: [CAT](https://github.com/ComparativeGenomicsToolkit/Comparative-Annotation-Toolkit), [TOGA](https://github.com/hillerlab/TOGA), IgDetective, Digger, Exonerate
+* Repeat annotation (Repeatmasker, TRF, ULTRA, windowmasker, http://doua.prabi.fr/software/one-code-to-find-them-all)
+* Transcriptome data alignment: StringTie2, ILS, [TRAILS](https://github.com/rivasiker/trails), [mcmc2](https://github.com/stschiff/msmc2)
+* Selection signature scans: Sweepfinder2, saltiLASSI
+* [Replication timing](https://github.com/ma-compbio/Phylo-HMGP)
+* Structural variation calling: [syri](https://github.com/schneebergerlab/syri), [PAV](https://github.com/EichlerLab/pav)
+* Segmental duplication: [SEDEF](https://github.com/vpc-ccg/sedef)
+* [Alpha satellites higher order array prediction](https://github.com/fedorrik/HumAS-HMMER_for_AnVIL)
+* Data visualization: [SVbyEye](https://github.com/daewoooo/SVbyEye), [StainedGlass](https://github.com/mrvollger/StainedGlass)
+
+
 ## Contact
 For any problems related to this dataset, please raise [issues](https://github.com/marbl/Primates/issues) on this GitHub repository. For general questions regarding the project, please contact <adam.phillippy@nih.gov>. More information about our consortium can be found on the [T2T homepage](https://sites.google.com/ucsc.edu/t2tworkinggroup/).
 
