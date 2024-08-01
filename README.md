@@ -8,7 +8,8 @@ All data is released to the public domain ([CC0](https://creativecommons.org/pub
 
 ### Relevant citations:
 
-1. Makova K, et al. [The Complete Sequence and Comparative Analysis of Ape Sex Chromosomes](https://www.biorxiv.org/content/10.1101/2023.11.30.569198v1). bioRxiv, 2023.
+1. Yoo D, et al. [Complete sequencing of ape genomes](https://www.biorxiv.org/content/10.1101/2024.07.31.605654v1). BioRxiv, 2024
+2. Makova K, et al. [The Complete Sequence and Comparative Analysis of Ape Sex Chromosomes](https://doi.org/10.1038/s41586-024-07473-2). Nature, 2024.
 
 # Assembly releases
 ## v2.0 (November 2023)
