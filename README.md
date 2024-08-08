@@ -67,7 +67,7 @@ Custom scripts used for the v2 assemblies are listed as below:
 * [Cactus alignment](https://cglgenomics.ucsc.edu/february-2024-t2t-apes)
 * [Assessment of ancestral sequence](https://github.com/vertgenlab/vglDocumentation/tree/master/primateT2T)
 * [AQER analysis](https://github.com/shanksc/ancestral_state)
-* [Population genome processing and selection analysis](https://github.com/aabiddanda/haplotype-phasing)
+* [Population genome processing and selection analysis](https://github.com/Lqh09/T2T-Great-Ape-Diversity)
 * Acrocentric/rDNA analyses - rDNA [image processing](https://github.com/jouyun/2024_Primate_rDNA) and [copy number analysis](https://github.com/borcherm/primate_rdna_cn)
 * [Species-specific MEI analysis](https://github.com/Markloftus/t2t-ape-MEIs)
 * [Non-B DNA annotation and NUMT detection](https://github.com/makovalab-psu/T2T_primate_autosomes)
