@@ -72,6 +72,7 @@ Custom scripts used for the v2 assemblies are listed as below:
 * [Species-specific MEI analysis](https://github.com/Markloftus/t2t-ape-MEIs)
 * [Non-B DNA annotation and NUMT detection](https://github.com/makovalab-psu/T2T_primate_autosomes)
 * [Transcript comparison](https://github.com/canzarlab/apes_transcriptome_analysis)
+* [Analysis of IG/TR loci](https://github.com/yana-safonova/primate_t2t_igtr)
 
 In addition to the custom scripts, the following codes were used:
 * Alignment: [Winnowmap](https://github.com/arangrhie/T2T-Polish/tree/master/winnowmap), [lastz](https://github.com/lastz/lastz), [minimap2](https://github.com/lh3/minimap2), blastn, blastp, [wfmash](https://github.com/waveygang/wfmash), [MashMap](https://github.com/marbl/MashMap), [nucmer](https://github.com/mummer4/mummer)
